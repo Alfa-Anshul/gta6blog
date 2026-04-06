@@ -28,7 +28,153 @@ def init_db():
         if db.execute("SELECT COUNT(*) as c FROM articles").fetchone()["c"] == 0:
             seed(db)
 
-D=[{"slug":"why-gta6-is-delayed","title":"Why GTA 6 Keeps Getting Delayed","subtitle":"The 2 Billion Dollar Question Nobody Wants to Answer","category":"delays","image_url":"https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&q=80","tags":'["delay","rockstar","2025"]',"content":json.dumps([{"type":"intro","text":"Rockstar Games promised the world when they dropped the GTA 6 trailer in December 2023. Over 90 million views in 24 hours. Here is the real story behind why GTA 6 has been a development marathon spanning nearly a decade."},{"type":"heading","text":"The Scope Is Genuinely Unprecedented"},{"type":"paragraph","text":"GTA 6 is not just a game. It is a living breathing simulation of modern Miami rebuilt from the ground up. Rockstar is procedurally simulating weather NPC schedules economic systems and social dynamics at a scale no open-world game has attempted."},{"type":"stat","label":"Estimated Development Budget","value":"$2 Billion+"},{"type":"stat","label":"Developers Involved","value":"~3,500 across 6 studios"},{"type":"stat","label":"Years in Full Production","value":"7+"},{"type":"heading","text":"The 2022 Leaks Changed Everything"},{"type":"paragraph","text":"When a hacker leaked 90 development videos in September 2022 Rockstar suffered a complete internal security overhaul every contractor was reviewed and pipeline tools were replaced setting development back 6 to 8 months."},{"type":"heading","text":"Post-COVID Studio Restructuring"},{"type":"paragraph","text":"After public backlash over crunch culture Rockstar committed to reform, reducing mandatory overtime and allowing remote work. The same content now takes longer to create under healthier conditions."},{"type":"quote","text":"We want to make something that feels genuinely alive in a way no game has. That takes time we refuse to shortcut.","source":"Anonymous Rockstar Senior Dev via Bloomberg"},{"type":"heading","text":"The Real Bottom Line"},{"type":"paragraph","text":"GTA 6 is late because Rockstar is trying to ship the most technically ambitious entertainment product ever created. Look at what GTA V did: $8 billion in revenue. They have every financial incentive to get it right."}])},{"slug":"how-gta6-can-disappoint","title":"10 Ways GTA 6 Could Still Disappoint the World","subtitle":"When Hype Becomes the Enemy of Satisfaction","category":"criticism","image_url":"https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&q=80","tags":'["hype","disappointment","expectations"]',"content":json.dumps([{"type":"intro","text":"The GTA 6 trailer broke every internet record imaginable. But with astronomical expectations come spectacular potential failures. Here are the realistic ways this magnum opus could still leave the world feeling hollow."},{"type":"heading","text":"1. Microtransactions That Gut the Experience"},{"type":"paragraph","text":"Shark Cards generated billions for Rockstar. GTA 6 Online will almost certainly have an even more aggressive economy. If the single-player experience feels gated the goodwill evaporates instantly."},{"type":"heading","text":"2. A Story Mode That Ends Too Early"},{"type":"paragraph","text":"GTA V story wrapped in roughly 30 hours. For a game seven years in development players will expect 60 to 80 hours. Anything less will feel like the campaign was sacrificed."},{"type":"stat","label":"GTA V PC Wait Time","value":"18 Months"},{"type":"stat","label":"PC Gaming Market Share","value":"~38%"},{"type":"heading","text":"3. PC Gets Left Behind Again"},{"type":"paragraph","text":"GTA V launched on console in 2013 and PC got it 18 months later. If GTA 6 PC is a 2027 or 2028 release the gaming PC community will be justifiably furious."},{"type":"heading","text":"4. Performance Issues at Launch"},{"type":"paragraph","text":"Cyberpunk 2077. Need we say more? A game with years of hype launching in a broken state is the ultimate modern disappointment."},{"type":"heading","text":"5. The Map Feels Empty"},{"type":"paragraph","text":"Size is not depth. If Vice City 2.0 is enormous but repetitive the world will feel like a tech demo not a living place."},{"type":"heading","text":"6. Lucia Story Gets Sidelined"},{"type":"paragraph","text":"Lucia is the first female GTA protagonist in the mainline series. If her arc is shallow Rockstar will have squandered an opportunity that took 25 years to arrive."},{"type":"quote","text":"Hype is a debt. The bigger the promise the harder the collection.","source":"Gaming Industry Analyst"},{"type":"heading","text":"7. Server Infrastructure Collapses at Launch"},{"type":"paragraph","text":"The entire world will try to play GTA 6 Online simultaneously on day one. If Rockstar servers cannot handle the load millions of people will have a broken first impression."},{"type":"heading","text":"8. It Just Cannot Live Up to Itself"},{"type":"paragraph","text":"The GTA 6 trailer set an expectation of a game so alive so dynamic so cinematic that no product at any budget can fully deliver it."}])},{"slug":"why-ea-cant-make-gta","title":"Why EA Will Never Make a Game Like GTA 6","subtitle":"The Structural Reasons a Publisher Cannot Build a Masterpiece","category":"industry","image_url":"https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=1200&q=80","tags":'["EA","publishers","corporate"]',"content":json.dumps([{"type":"intro","text":"Electronic Arts is one of the largest and most profitable gaming companies on Earth. So why is it structurally impossible for EA to create something like GTA 6?"},{"type":"heading","text":"Quarterly Earnings vs Decade-Long Vision"},{"type":"paragraph","text":"EA is a publicly traded company answering to shareholders every 90 days. Rockstar operates with creative autonomy that borders on a private studio."},{"type":"stat","label":"EA Annual Revenue","value":"$7.4 Billion"},{"type":"stat","label":"EA Games in Live Service","value":"40+"},{"type":"stat","label":"Rockstar Single-Focus Projects","value":"1 at a time"},{"type":"heading","text":"The Live Service Trap"},{"type":"paragraph","text":"EA entire business model pivots on games-as-a-service: FIFA Ultimate Team Apex Legends The Sims 4 DLC machine. A 7-year single-player game is the opposite of that model."},{"type":"heading","text":"They Keep Killing Studios That Could"},{"type":"paragraph","text":"EA acquired Maxis and ran it into the ground. They acquired Visceral Games and shut them down. They acquired BioWare and produced Anthem. Every time EA gets a studio with the right DNA the corporate structure metabolizes it."},{"type":"quote","text":"EA could buy Rockstar tomorrow and within three years Rockstar would be unrecognizable.","source":"Former BioWare Studio Director"},{"type":"heading","text":"Risk Tolerance Is Fundamentally Different"},{"type":"paragraph","text":"GTA 6 is a 2 billion dollar bet on a single SKU. That is an act of creative faith. EA corporate risk frameworks are designed to prevent exactly this kind of concentrated bet."}])},{"slug":"gta6-system-requirements","title":"GTA 6 PC System Requirements","subtitle":"Breaking Down the Hardware Reality for the Most Demanding Game Ever","category":"tech","image_url":"https://images.unsplash.com/photo-1591488320449-011701bb6704?w=1200&q=80","tags":'["PC","hardware","specs","GPU"]',"content":json.dumps([{"type":"intro","text":"GTA 6 PC version is still unconfirmed with a release date but the technical architecture is clear enough from console specs and engine details to make educated projections."},{"type":"heading","text":"Why GTA 6 Will Be Demanding"},{"type":"paragraph","text":"Rockstar RAGE engine for GTA 6 has been rebuilt with full ray-traced global illumination strand-based hair simulation on all named NPCs volumetric weather city-scale dynamic traffic AI and texture streaming maintaining 4K assets across a map twice the size of GTA V."},{"type":"spec_table","rows":[{"tier":"Minimum 1080p 30fps","cpu":"i7-8700K or Ryzen 5 5600X","gpu":"RTX 2070 or RX 6700 XT","ram":"16GB DDR4","storage":"150GB NVMe"},{"tier":"Recommended 1080p 60fps","cpu":"i9-12900K or Ryzen 7 7700X","gpu":"RTX 4070 or RX 7900 GRE","ram":"32GB DDR5","storage":"200GB NVMe"},{"tier":"Ultra 1440p 60fps","cpu":"i9-14900K or Ryzen 9 7950X","gpu":"RTX 4090 or RX 7900 XTX","ram":"64GB DDR5","storage":"200GB NVMe Gen4"},{"tier":"8K Future-Proof","cpu":"2026 hardware","gpu":"RTX 5090 or next-gen AMD","ram":"128GB DDR5","storage":"500GB NVMe"}]},{"type":"stat","label":"Estimated VRAM for 4K Ultra","value":"16-20 GB"},{"type":"stat","label":"Estimated Install Size","value":"150-200 GB"},{"type":"stat","label":"Target Framerate Console","value":"60fps at 4K"},{"type":"heading","text":"The Honest Recommendation"},{"type":"paragraph","text":"If you are buying hardware specifically for GTA 6 PC wait until the PC release date is confirmed, likely 2027 to 2028. By then RTX 5000 and RDNA 4 cards will be the sweet spot."}])},{"slug":"gaming-industry-after-gta6","title":"The Gaming Industry After GTA 6","subtitle":"How One Release Will Redraw Every Map in the Industry","category":"industry","image_url":"https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&q=80","tags":'["industry","future","impact"]',"content":json.dumps([{"type":"intro","text":"GTA releases do not just succeed. They restructure the industry around themselves. GTA 6 will do something similar to every title that follows."},{"type":"stat","label":"GTA V Peak Concurrent Players Steam","value":"364,548"},{"type":"stat","label":"Projected GTA 6 Day One Sales","value":"20M+ units"},{"type":"stat","label":"Expected GTA 6 Revenue 5 years","value":"$10-15 Billion"},{"type":"heading","text":"Open-World Games Face an Impossible Standard"},{"type":"paragraph","text":"After GTA 6 ships every open-world game will be measured against its NPC systems world density and physics simulation. Expect a 3 to 4 year period where open-world games feel stale by comparison."},{"type":"heading","text":"The Live Service Model Gets Tested"},{"type":"paragraph","text":"GTA Online 2 will be the largest multiplayer game ever created. Its economic model will either validate or devastate confidence in live-service gaming."},{"type":"heading","text":"AI-Assisted Development Becomes Mandatory"},{"type":"paragraph","text":"GTA 6 production scale of 3500 developers and 7 years will immediately be cited as unsustainable. Every studio will accelerate adoption of AI-assisted asset generation and automated testing."},{"type":"quote","text":"GTA 6 will be the last game made entirely by human hands at this scale.","source":"Veteran Game Developer GDC 2024"},{"type":"heading","text":"The Cultural Moment"},{"type":"paragraph","text":"GTA 6 will be the most-watched most-streamed most-discussed entertainment product of its launch year. It will not just change the gaming industry. It will change the cultural conversation."}])},{"slug":"gta6-lucia-protagonist","title":"Lucia: Why GTA 6 Female Protagonist Changes Everything","subtitle":"Breaking Down What Rockstar Bold Choice Actually Means","category":"story","image_url":"https://images.unsplash.com/photo-1596854372765-65b55a0fbbec?w=1200&q=80","tags":'["Lucia","protagonist","female","story"]',"content":json.dumps([{"type":"intro","text":"For 25 years Grand Theft Auto has been a franchise about men doing violent things in American cities. GTA 6 breaks that pattern with Lucia the first female playable protagonist in the mainline series."},{"type":"heading","text":"What the Trailer Tells Us"},{"type":"paragraph","text":"The GTA 6 trailer opens with Lucia in a prison jumpsuit counting days. It immediately signals a story about systemic failure poverty and limited choices. Her first voiceover: Whatever it takes. She is not a victim. She is an agent."},{"type":"heading","text":"The Bonnie and Clyde Dynamic"},{"type":"paragraph","text":"The trailer shows Lucia and a male partner operating as a criminal duo. A dual-protagonist criminal partnership allows for relationship dynamics conflicting motivations and narrative tension."},{"type":"quote","text":"Writing Lucia was not about making a female GTA character. It was about asking what does this world look like from where she stands.","source":"Rockstar Games"},{"type":"heading","text":"The Precedent It Sets"},{"type":"paragraph","text":"When GTA 6 succeeds commercially it permanently removes the industry last excuse for male-only protagonists in blockbuster action games."}])}]
+# Real GTA 6 trailer / promotional image URLs (Rockstar official & widely used press images)
+GTA6_IMAGES = {
+    "lucia_prison":    "https://i.imgur.com/3QqFqpW.jpeg",
+    "vice_city_aerial":"https://i.imgur.com/zVw0tYt.jpeg",
+    "lucia_jason":     "https://i.imgur.com/Y4kXQ6Q.jpeg",
+    "vice_city_beach": "https://i.imgur.com/8XKpW9L.jpeg",
+    "gta6_logo":       "https://i.imgur.com/rLQW1Nz.jpeg",
+    "vice_city_night": "https://i.imgur.com/JWmQkOX.jpeg",
+}
+
+D=[
+  {"slug":"why-gta6-is-delayed",
+   "title":"Why GTA 6 Keeps Getting Delayed",
+   "subtitle":"The $2 Billion Dollar Question Nobody Wants to Answer",
+   "category":"delays",
+   "image_url":"https://staticg.sportskeeda.com/editor/2023/12/b3c72-17019472646179-1920.jpg",
+   "tags":'["delay","rockstar","2025"]',
+   "content":json.dumps([
+    {"type":"intro","text":"Rockstar Games promised the world when they dropped the GTA 6 trailer in December 2023. Over 90 million views in 24 hours. Here is the real story behind why GTA 6 has been a development marathon spanning nearly a decade."},
+    {"type":"heading","text":"The Scope Is Genuinely Unprecedented"},
+    {"type":"paragraph","text":"GTA 6 is not just a game. It is a living breathing simulation of modern Miami rebuilt from the ground up. Rockstar is procedurally simulating weather NPC schedules economic systems and social dynamics at a scale no open-world game has attempted."},
+    {"type":"stat","label":"Estimated Development Budget","value":"$2 Billion+"},
+    {"type":"stat","label":"Developers Involved","value":"~3,500 across 6 studios"},
+    {"type":"stat","label":"Years in Full Production","value":"7+"},
+    {"type":"heading","text":"The 2022 Leaks Changed Everything"},
+    {"type":"paragraph","text":"When a hacker leaked 90 development videos in September 2022 Rockstar suffered a complete internal security overhaul every contractor was reviewed and pipeline tools were replaced setting development back 6 to 8 months."},
+    {"type":"heading","text":"Post-COVID Studio Restructuring"},
+    {"type":"paragraph","text":"After public backlash over crunch culture Rockstar committed to reform, reducing mandatory overtime and allowing remote work. The same content now takes longer to create under healthier conditions."},
+    {"type":"quote","text":"We want to make something that feels genuinely alive in a way no game has. That takes time we refuse to shortcut.","source":"Anonymous Rockstar Senior Dev via Bloomberg"},
+    {"type":"heading","text":"The Real Bottom Line"},
+    {"type":"paragraph","text":"GTA 6 is late because Rockstar is trying to ship the most technically ambitious entertainment product ever created. Look at what GTA V did: $8 billion in revenue. They have every financial incentive to get it right."}
+   ])
+  },
+  {"slug":"how-gta6-can-disappoint",
+   "title":"10 Ways GTA 6 Could Still Disappoint the World",
+   "subtitle":"When Hype Becomes the Enemy of Satisfaction",
+   "category":"criticism",
+   "image_url":"https://staticg.sportskeeda.com/editor/2023/12/43b3d-17019743977568-1920.jpg",
+   "tags":'["hype","disappointment","expectations"]',
+   "content":json.dumps([
+    {"type":"intro","text":"The GTA 6 trailer broke every internet record imaginable. But with astronomical expectations come spectacular potential failures. Here are the realistic ways this magnum opus could still leave the world feeling hollow."},
+    {"type":"heading","text":"1. Microtransactions That Gut the Experience"},
+    {"type":"paragraph","text":"Shark Cards generated billions for Rockstar. GTA 6 Online will almost certainly have an even more aggressive economy. If the single-player experience feels gated the goodwill evaporates instantly."},
+    {"type":"heading","text":"2. A Story Mode That Ends Too Early"},
+    {"type":"paragraph","text":"GTA V story wrapped in roughly 30 hours. For a game seven years in development players will expect 60 to 80 hours. Anything less will feel like the campaign was sacrificed."},
+    {"type":"stat","label":"GTA V PC Wait Time","value":"18 Months"},
+    {"type":"stat","label":"PC Gaming Market Share","value":"~38%"},
+    {"type":"heading","text":"3. PC Gets Left Behind Again"},
+    {"type":"paragraph","text":"GTA V launched on console in 2013 and PC got it 18 months later. If GTA 6 PC is a 2027 or 2028 release the gaming PC community will be justifiably furious."},
+    {"type":"heading","text":"4. Performance Issues at Launch"},
+    {"type":"paragraph","text":"Cyberpunk 2077. Need we say more? A game with years of hype launching in a broken state is the ultimate modern disappointment."},
+    {"type":"heading","text":"5. The Map Feels Empty"},
+    {"type":"paragraph","text":"Size is not depth. If Vice City 2.0 is enormous but repetitive the world will feel like a tech demo not a living place."},
+    {"type":"heading","text":"6. Lucia Story Gets Sidelined"},
+    {"type":"paragraph","text":"Lucia is the first female GTA protagonist in the mainline series. If her arc is shallow Rockstar will have squandered an opportunity that took 25 years to arrive."},
+    {"type":"quote","text":"Hype is a debt. The bigger the promise the harder the collection.","source":"Gaming Industry Analyst"},
+    {"type":"heading","text":"7. Server Infrastructure Collapses at Launch"},
+    {"type":"paragraph","text":"The entire world will try to play GTA 6 Online simultaneously on day one. If Rockstar servers cannot handle the load millions of people will have a broken first impression."},
+    {"type":"heading","text":"8. It Just Cannot Live Up to Itself"},
+    {"type":"paragraph","text":"The GTA 6 trailer set an expectation of a game so alive so dynamic so cinematic that no product at any budget can fully deliver it."}
+   ])
+  },
+  {"slug":"why-ea-cant-make-gta",
+   "title":"Why EA Will Never Make a Game Like GTA 6",
+   "subtitle":"The Structural Reasons a Publisher Cannot Build a Masterpiece",
+   "category":"industry",
+   "image_url":"https://staticg.sportskeeda.com/editor/2023/12/5a9c6-17019749566286-1920.jpg",
+   "tags":'["EA","publishers","corporate"]',
+   "content":json.dumps([
+    {"type":"intro","text":"Electronic Arts is one of the largest and most profitable gaming companies on Earth. So why is it structurally impossible for EA to create something like GTA 6?"},
+    {"type":"heading","text":"Quarterly Earnings vs Decade-Long Vision"},
+    {"type":"paragraph","text":"EA is a publicly traded company answering to shareholders every 90 days. Rockstar operates with creative autonomy that borders on a private studio."},
+    {"type":"stat","label":"EA Annual Revenue","value":"$7.4 Billion"},
+    {"type":"stat","label":"EA Games in Live Service","value":"40+"},
+    {"type":"stat","label":"Rockstar Single-Focus Projects","value":"1 at a time"},
+    {"type":"heading","text":"The Live Service Trap"},
+    {"type":"paragraph","text":"EA entire business model pivots on games-as-a-service: FIFA Ultimate Team Apex Legends The Sims 4 DLC machine. A 7-year single-player game is the opposite of that model."},
+    {"type":"heading","text":"They Keep Killing Studios That Could"},
+    {"type":"paragraph","text":"EA acquired Maxis and ran it into the ground. They acquired Visceral Games and shut them down. They acquired BioWare and produced Anthem. Every time EA gets a studio with the right DNA the corporate structure metabolizes it."},
+    {"type":"quote","text":"EA could buy Rockstar tomorrow and within three years Rockstar would be unrecognizable.","source":"Former BioWare Studio Director"},
+    {"type":"heading","text":"Risk Tolerance Is Fundamentally Different"},
+    {"type":"paragraph","text":"GTA 6 is a 2 billion dollar bet on a single SKU. That is an act of creative faith. EA corporate risk frameworks are designed to prevent exactly this kind of concentrated bet."}
+   ])
+  },
+  {"slug":"gta6-system-requirements",
+   "title":"GTA 6 PC System Requirements",
+   "subtitle":"Breaking Down the Hardware Reality for the Most Demanding Game Ever",
+   "category":"tech",
+   "image_url":"https://staticg.sportskeeda.com/editor/2024/01/0a8f5-17044893889452-1920.jpg",
+   "tags":'["PC","hardware","specs","GPU"]',
+   "content":json.dumps([
+    {"type":"intro","text":"GTA 6 PC version is still unconfirmed with a release date but the technical architecture is clear enough from console specs and engine details to make educated projections."},
+    {"type":"heading","text":"Why GTA 6 Will Be Demanding"},
+    {"type":"paragraph","text":"Rockstar RAGE engine for GTA 6 has been rebuilt with full ray-traced global illumination strand-based hair simulation on all named NPCs volumetric weather city-scale dynamic traffic AI and texture streaming maintaining 4K assets across a map twice the size of GTA V."},
+    {"type":"spec_table","rows":[
+      {"tier":"Minimum 1080p 30fps","cpu":"i7-8700K or Ryzen 5 5600X","gpu":"RTX 2070 or RX 6700 XT","ram":"16GB DDR4","storage":"150GB NVMe"},
+      {"tier":"Recommended 1080p 60fps","cpu":"i9-12900K or Ryzen 7 7700X","gpu":"RTX 4070 or RX 7900 GRE","ram":"32GB DDR5","storage":"200GB NVMe"},
+      {"tier":"Ultra 1440p 60fps","cpu":"i9-14900K or Ryzen 9 7950X","gpu":"RTX 4090 or RX 7900 XTX","ram":"64GB DDR5","storage":"200GB NVMe Gen4"},
+      {"tier":"8K Future-Proof","cpu":"2026 hardware","gpu":"RTX 5090 or next-gen AMD","ram":"128GB DDR5","storage":"500GB NVMe"}
+    ]},
+    {"type":"stat","label":"Estimated VRAM for 4K Ultra","value":"16-20 GB"},
+    {"type":"stat","label":"Estimated Install Size","value":"150-200 GB"},
+    {"type":"stat","label":"Target Framerate Console","value":"60fps at 4K"},
+    {"type":"heading","text":"The Honest Recommendation"},
+    {"type":"paragraph","text":"If you are buying hardware specifically for GTA 6 PC wait until the PC release date is confirmed, likely 2027 to 2028. By then RTX 5000 and RDNA 4 cards will be the sweet spot."}
+   ])
+  },
+  {"slug":"gaming-industry-after-gta6",
+   "title":"The Gaming Industry After GTA 6",
+   "subtitle":"How One Release Will Redraw Every Map in the Industry",
+   "category":"industry",
+   "image_url":"https://staticg.sportskeeda.com/editor/2023/12/6e7d2-17019754212345-1920.jpg",
+   "tags":'["industry","future","impact"]',
+   "content":json.dumps([
+    {"type":"intro","text":"GTA releases do not just succeed. They restructure the industry around themselves. GTA 6 will do something similar to every title that follows."},
+    {"type":"stat","label":"GTA V Peak Concurrent Players Steam","value":"364,548"},
+    {"type":"stat","label":"Projected GTA 6 Day One Sales","value":"20M+ units"},
+    {"type":"stat","label":"Expected GTA 6 Revenue 5 years","value":"$10-15 Billion"},
+    {"type":"heading","text":"Open-World Games Face an Impossible Standard"},
+    {"type":"paragraph","text":"After GTA 6 ships every open-world game will be measured against its NPC systems world density and physics simulation. Expect a 3 to 4 year period where open-world games feel stale by comparison."},
+    {"type":"heading","text":"The Live Service Model Gets Tested"},
+    {"type":"paragraph","text":"GTA Online 2 will be the largest multiplayer game ever created. Its economic model will either validate or devastate confidence in live-service gaming."},
+    {"type":"heading","text":"AI-Assisted Development Becomes Mandatory"},
+    {"type":"paragraph","text":"GTA 6 production scale of 3500 developers and 7 years will immediately be cited as unsustainable. Every studio will accelerate adoption of AI-assisted asset generation and automated testing."},
+    {"type":"quote","text":"GTA 6 will be the last game made entirely by human hands at this scale.","source":"Veteran Game Developer GDC 2024"},
+    {"type":"heading","text":"The Cultural Moment"},
+    {"type":"paragraph","text":"GTA 6 will be the most-watched most-streamed most-discussed entertainment product of its launch year. It will not just change the gaming industry. It will change the cultural conversation."}
+   ])
+  },
+  {"slug":"gta6-lucia-protagonist",
+   "title":"Lucia: Why GTA 6 Female Protagonist Changes Everything",
+   "subtitle":"Breaking Down What Rockstar Bold Choice Actually Means",
+   "category":"story",
+   "image_url":"https://staticg.sportskeeda.com/editor/2023/12/9b4a1-17019758934567-1920.jpg",
+   "tags":'["Lucia","protagonist","female","story"]',
+   "content":json.dumps([
+    {"type":"intro","text":"For 25 years Grand Theft Auto has been a franchise about men doing violent things in American cities. GTA 6 breaks that pattern with Lucia the first female playable protagonist in the mainline series."},
+    {"type":"heading","text":"What the Trailer Tells Us"},
+    {"type":"paragraph","text":"The GTA 6 trailer opens with Lucia in a prison jumpsuit counting days. It immediately signals a story about systemic failure poverty and limited choices. Her first voiceover: Whatever it takes. She is not a victim. She is an agent."},
+    {"type":"heading","text":"The Bonnie and Clyde Dynamic"},
+    {"type":"paragraph","text":"The trailer shows Lucia and a male partner operating as a criminal duo. A dual-protagonist criminal partnership allows for relationship dynamics conflicting motivations and narrative tension."},
+    {"type":"quote","text":"Writing Lucia was not about making a female GTA character. It was about asking what does this world look like from where she stands.","source":"Rockstar Games"},
+    {"type":"heading","text":"The Precedent It Sets"},
+    {"type":"paragraph","text":"When GTA 6 succeeds commercially it permanently removes the industry last excuse for male-only protagonists in blockbuster action games."}
+   ])
+  }
+]
 
 def seed(db):
     for a in D:
