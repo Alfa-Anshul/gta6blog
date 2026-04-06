@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VICE WIRE - GTA 6 Intelligence Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<div class="noise-overlay"></div>
+<div class="scanlines"></div>
+<nav id="navbar">
+  <div class="nav-inner">
+    <div class="nav-logo">
+      <span class="logo-vice">VICE</span><span class="logo-wire">WIRE</span>
+      <span class="logo-tag">GTA 6 INTEL</span>
+    </div>
+    <div class="nav-links">
+      <a href="#" onclick="showHome()" class="nav-link active" data-page="home">HOME</a>
+      <a href="#" onclick="filterCategory('delays')" class="nav-link" data-cat="delays">DELAYS</a>
+      <a href="#" onclick="filterCategory('criticism')" class="nav-link" data-cat="criticism">CRITIQUE</a>
+      <a href="#" onclick="filterCategory('industry')" class="nav-link" data-cat="industry">INDUSTRY</a>
+      <a href="#" onclick="filterCategory('tech')" class="nav-link" data-cat="tech">TECH</a>
+      <a href="#" onclick="filterCategory('story')" class="nav-link" data-cat="story">STORY</a>
+    </div>
+    <div class="nav-ticker">
+      <span class="ticker-label">BREAKING</span>
+      <span class="ticker-text">GTA 6 RELEASE DATE CONFIRMED FOR 2025 - DEVELOPMENT ENTERS GOLD PHASE - VICE CITY MAP LEAKED: TWICE THE SIZE OF LS - LUCIA CONFIRMED PLAYABLE THROUGHOUT FULL STORY - PC VERSION DATE TBD</span>
+    </div>
+  </div>
+</nav>
+<header id="hero-section">
+  <div class="hero-bg">
+    <div class="hero-grid-lines"></div>
+    <div class="hero-gradient"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-eyebrow"><span class="blink-dot"></span>LIVE COVERAGE - GTA 6 WATCH</div>
+    <h1 class="hero-title">
+      <span class="title-line-1">THE MOST</span>
+      <span class="title-line-2">ANTICIPATED</span>
+      <span class="title-line-3">GAME <span class="title-accent">IN HISTORY</span></span>
+    </h1>
+    <p class="hero-subtitle">Deep dives into GTA 6 delays, the gaming industry future, and everything Rockstar is not saying.</p>
+    <div class="hero-stats">
+      <div class="stat-pill"><span class="stat-num" id="statArticles">0</span><span class="stat-label">ARTICLES</span></div>
+      <div class="stat-pill"><span class="stat-num" id="statViews">0</span><span class="stat-label">TOTAL VIEWS</span></div>
+      <div class="stat-pill"><span class="stat-num" id="statComments">0</span><span class="stat-label">COMMENTS</span></div>
+    </div>
+    <button class="hero-cta" onclick="document.getElementById('articles-section').scrollIntoView({behavior:'smooth'})">
+      START READING
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </button>
+  </div>
+  <div class="hero-side-text">VICE CITY - 2025 - THE INTEL</div>
+</header>
+<section id="featured-strip">
+  <div class="strip-label">FEATURED ANALYSIS</div>
+  <div class="featured-cards" id="featuredCards"></div>
+</section>
+<section id="articles-section">
+  <div class="section-header">
+    <div class="section-title-block">
+      <h2 class="section-title" id="sectionTitle">ALL INTEL</h2>
+      <span class="section-count" id="articleCount">- 0 PIECES</span>
+    </div>
+    <div class="category-pills">
+      <button class="cat-pill active" onclick="filterCategory(null)">ALL</button>
+      <button class="cat-pill" onclick="filterCategory('delays')">DELAYS</button>
+      <button class="cat-pill" onclick="filterCategory('criticism')">CRITIQUE</button>
+      <button class="cat-pill" onclick="filterCategory('industry')">INDUSTRY</button>
+      <button class="cat-pill" onclick="filterCategory('tech')">TECH</button>
+      <button class="cat-pill" onclick="filterCategory('story')">STORY</button>
+    </div>
+  </div>
+  <div class="articles-grid" id="articlesGrid">
+    <div class="loading-state"><div class="loader-ring"></div><span>LOADING INTEL...</span></div>
+  </div>
+</section>
+<section id="article-detail" class="hidden">
+  <div class="detail-back">
+    <button onclick="closeArticle()" class="back-btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+      BACK TO ALL
+    </button>
+  </div>
+  <article class="detail-article" id="articleContent"></article>
+  <div class="comments-section" id="commentsSection"></div>
+</section>
+<div class="cine-strip">
+  <div class="cine-text">GTA VI - VICE CITY - LUCIA AND JASON - ROCKSTAR GAMES - 2025 - GTA VI - VICE CITY - LUCIA AND JASON - ROCKSTAR GAMES - 2025 - GTA VI - VICE CITY - LUCIA AND JASON - ROCKSTAR GAMES - 2025 -</div>
+</div>
+<footer id="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-logo">VICE<span>WIRE</span></div>
+      <p>Independent GTA 6 analysis and gaming industry intelligence. Not affiliated with Rockstar Games or Take-Two Interactive.</p>
+    </div>
+    <div class="footer-links"><span>2025 VICEWIRE</span><span>ANERVEA.LIVE</span></div>
+  </div>
+</footer>
+<script src="/js/app.js"></script>
+</body>
+</html>
